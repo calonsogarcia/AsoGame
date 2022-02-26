@@ -1,5 +1,4 @@
 # AsoGame
-======================================
 
 La idea se basa en desarrollar soluciones digitales que consigan el engagement de los asistentes a los partidos mejorando y aumentando la experiencia de usuario, basado en el caso de estudio 1 planteado por Ironhack.
 
@@ -43,7 +42,7 @@ Los tokens/coins serán puntos que se acumularán cuando se aciertan los pronós
 ### Uso de los tokens/coins
 Se podrá hacer uso de los mismos para abonar las consumiciones en la zona de restauración de los pabellones o, si se acumula una determinada cantidad, tener la posibilidad de canjearlos por una entrada para asistir a otro partido.
 
-======================================
+------------------------------------------------------
 
 ## Getting Started
 
