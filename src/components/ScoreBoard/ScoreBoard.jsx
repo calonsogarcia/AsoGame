@@ -5,6 +5,7 @@ const ScoreBoard = () => {
     return (
         <Container className="score-board">
             <p>Franklin BM...</p>
+            <img src=""/>
             <p>2 - 1</p>
             <p>Bada Huesca</p>
         </Container>
