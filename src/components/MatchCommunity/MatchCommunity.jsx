@@ -7,7 +7,7 @@ const MatchCommunity = () => {
   return (
     <Container>
       <img src={comentsLogo} className="mt-3" />
-      <InputGroup className="mt-4">
+      <InputGroup className="mt-5">
         <InputGroup.Text>
           <img src={logoCamara} />
         </InputGroup.Text>

@@ -8,7 +8,7 @@ import "./SitLocationComponent.css";
 const SitLocationComponent = () => {
   return (
     <>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "18rem" }} >
         <Card.Img variant="top" src={polideportivo} />
         <Card.Body>
           <Card.Title>

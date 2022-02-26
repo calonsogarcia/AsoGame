@@ -1,9 +1,10 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+import "./Calendar.css"
 
 const Calendar = () => {
   return (
-    <Table responsive hover bordered variant="light">
+    <Table responsive hover bordered variant="light" className="margin-top">
       <thead>
         <tr>
           <th className="text-center">Domingo</th>
