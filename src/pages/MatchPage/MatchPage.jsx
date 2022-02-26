@@ -1,21 +1,21 @@
-import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { useState } from "react";
 import MatchDetails from "../../components/MatchDetails/MatchDetails";
 import ScoreBoard from "../../components/ScoreBoard/ScoreBoard";
 import "./MatchPage.css";
 
 const MatchPage = () => {
-    const [showMatchDetails, setShowMatchDetails] = useState(false)
-    const [showMatchCommunity, setShowMatchCommunity] = useState(false)
+  const [showMatchDetails, setShowMatchDetails] = useState(false);
+  const [showMatchCommunity, setShowMatchCommunity] = useState(false);
 
-    const showDetails = () => {
-        setShowMatchDetails(true)
-        setShowMatchCommunity(false)
-    }
-    const showCommunity = () => {
-        setShowMatchCommunity(true)
-        setShowMatchDetails(false)
-    }
+  const showDetails = () => {
+    setShowMatchDetails(true);
+    setShowMatchCommunity(false);
+  };
+  const showCommunity = () => {
+    setShowMatchCommunity(true);
+    setShowMatchDetails(false);
+  };
   return (
     <>
       <ScoreBoard />
@@ -27,9 +27,9 @@ const MatchPage = () => {
           <Col className="d-flex justify-content-center">
             <p className="" onClick={showDetails}>Partido</p>
           </Col>
-          {showMatchDetails && <MatchDetails />}
         </Row>
       </Container>
+      {showMatchDetails && <MatchDetails />}
     </>
   );
 };

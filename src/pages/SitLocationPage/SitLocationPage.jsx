@@ -5,7 +5,7 @@ import SitLocationComponent from "../../components/SitLocation/SitLocationCompon
 
 const SitGuides = () => {
   return (
-    <Container className="d-flex-column align-items-center">
+    <Container className="d-flex flex-column align-items-center mt-5">
       <h3> Cómo llegar a tu asiento </h3>
       <SitPopUp />
       <SitLocationComponent />
