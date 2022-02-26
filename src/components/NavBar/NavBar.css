@@ -1,0 +1,9 @@
+.container-menu{
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.container-menu button{
+    width: fit-content;
+}
