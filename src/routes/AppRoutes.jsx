@@ -1,6 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import IndexPage from "../pages/IndexPage/IndexPage";
 import MatchPage from '../pages/MatchPage/MatchPage';
+import MatchDetails from "../components/MatchDetails/MatchDetails";
+
 
 const AppRoutes = () => {
 
@@ -8,6 +10,7 @@ const AppRoutes = () => {
         <Routes>
             <Route path="/" element={<IndexPage />}/>
             <Route path="/match" element={<MatchPage />} />
+            <Route path="/details" element={<MatchDetails />} />
         </Routes>
     )
 }
