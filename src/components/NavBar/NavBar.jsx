@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Nav, NavDropdown, Navbar, Row, Col } from "react-bootstrap";
 import logoUser from "../../assets/images/user.png";
 import logoCoin from "../../assets/images/coin.png";
-import "./NavBar.css";
+import "./NavBar.css"
 
 const NavBar = () => {
   return (
@@ -28,7 +28,7 @@ const NavBar = () => {
             <p className="mt-3">150</p>
           </Col>
           <Col className="container-menu d-flex flex-column">
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle id="navbar-toggle" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Navbar.Brand href="/">Aso Game</Navbar.Brand>
               <Nav className="me-auto">
