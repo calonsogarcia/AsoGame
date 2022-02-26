@@ -27,11 +27,13 @@ Chat tipo twitter en vivo, en el cual podrá poner comentarios instantáneos que
 
 ### Tus pronósticos
 Vista en la cual se activarán varias encuestas antes del partido que el usuario podrá contestar. Como por ejemplo: “¿Cuántos goles crees que marcará cada equipo antes del partido?¿Qué jugador crees que será el que más marque?”
-**En caso de que se acierten los pronósticos el usuario recibirá monedas**
+<br>
+**En caso de que se acierten los pronósticos el usuario recibirá tokens/coins**
 
 ### Juega con nosotros
 Un mini kahoot/quiz que se llevará a cabo durante el descanso.
-**En caso de que se acierten los pronósticos el usuario recibirá monedas**
+<br>
+**En caso de que se acierten los pronósticos el usuario recibirá tokens/coins**
 
 ### Perfil de usuario
 Aquí podrás indicar información personal, así como el equipo del cual eres seguidor.
