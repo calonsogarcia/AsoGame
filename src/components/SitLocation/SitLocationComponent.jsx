@@ -3,12 +3,13 @@ import { Card, Button, ListGroup, ListGroupItem } from "react-bootstrap";
 import polideportivo from "../../assets/images/polideportivo.png";
 import direction from "../../assets/images/direction.png";
 import sit from "../../assets/images/sit.png";
+import "./SitLocationComponent.css"
 
 
 const SitLocationComponent = () => {
   return (
     <>
-      <Card responsive>
+      <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={polideportivo} />
         <Card.Body>
           <Card.Title>
@@ -50,8 +51,8 @@ const SitLocationComponent = () => {
           </ListGroupItem>
         </ListGroup>
         <Card.Body>
-          <Card.Link class="sit-button" href="/match">
-            <Button>Ok</Button>
+          <Card.Link href="/match">
+            <Button className="sit-button">Ok</Button>
           </Card.Link>
         </Card.Body>
       </Card>
