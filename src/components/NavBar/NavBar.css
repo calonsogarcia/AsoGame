@@ -1,5 +1,9 @@
+#navbar{
+    background-color: #303871;
+    color: white;
+}
 .container-menu{
-    width: 100vw;
+    width: 200px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
