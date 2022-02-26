@@ -1,17 +1,21 @@
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
+import comentsLogo from "../../assets/images/coments.png";
+import { InputGroup, FormControl } from "react-bootstrap";
+import logoCamara from "../../assets/images/camera.png";
 
 const MatchCommunity = () => {
-    const numbers = [1, 2, 3, 4]
-    return (
-        <Container>
-            {numbers.map((number) => {
-                console.log(number)
-                return(
-                    <img src={""}/>
-                )
-            })}
-        </Container>
-    )
-}
+  return (
+    <Container>
+      <img src={comentsLogo} className="mt-3" />
+      <InputGroup className="mt-4">
+        <InputGroup.Text>
+          <img src={logoCamara} />
+        </InputGroup.Text>
+        <FormControl as="textarea" aria-label="With textarea" />
+        <Button variant="ligth">{"->"}</Button>
+      </InputGroup>
+    </Container>
+  );
+};
 
 export default MatchCommunity;
