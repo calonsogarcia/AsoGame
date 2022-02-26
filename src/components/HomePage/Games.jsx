@@ -36,7 +36,7 @@ const Games = () => {
             />
             </td>
             <td>18:00</td>
-            <td><Link to="/match"> Asisto </Link></td>
+            <td><Link to="/sitlocation"> Asisto </Link></td>
           </tr>
           <tr>
             <td>
@@ -59,7 +59,7 @@ const Games = () => {
             />
             </td>
             <td>17:30</td>
-            <td><Link to="/match">Asisto</Link></td>
+            <td><Link to="/sitlocation">Asisto</Link></td>
           </tr>
           <tr>
             <td>
@@ -82,7 +82,7 @@ const Games = () => {
             />
             </td>
             <td>19:00</td>
-            <td><Link to="/match">Asisto</Link></td>
+            <td><Link to="/sitlocation">Asisto</Link></td>
           </tr>
         </tbody>
       </Table>
