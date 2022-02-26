@@ -1,13 +1,13 @@
-#navbar{
-    background-color: #303871;
-    color: white;
+#navbar {
+  background-color: #303871;
+  color: white;
 }
-.container-menu{
-    width: 200px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+.container-menu {
+  width: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
-.container-menu button{
-    width: fit-content;
+.container-menu button {
+  width: fit-content;
 }

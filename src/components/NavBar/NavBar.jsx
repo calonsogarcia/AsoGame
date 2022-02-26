@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Nav, NavDropdown, Navbar, Row, Col } from "react-bootstrap";
+import { Container, Nav, Navbar, Row, Col } from "react-bootstrap";
 import logoUser from "../../assets/images/user.png";
 import logoCoin from "../../assets/images/coin.png";
-import "./NavBar.css"
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
@@ -28,24 +28,13 @@ const NavBar = () => {
             <p className="mt-3">150</p>
           </Col>
           <Col className="container-menu d-flex flex-column">
-            <Navbar.Toggle id="navbar-toggle" aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle
+              id="navbar-toggle"
+              aria-controls="basic-navbar-nav"
+            />
             <Navbar.Collapse id="basic-navbar-nav">
               <Navbar.Brand href="/">Aso Game</Navbar.Brand>
-              <Nav className="me-auto">
-                {/* <Nav.Link href="/match"></Nav.Link> */}
-                {/* <Nav.Link href="">Log In</Nav.Link> */}
-                {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
-              </Nav>
+              <Nav className="me-auto"></Nav>
             </Navbar.Collapse>
           </Col>
         </Row>

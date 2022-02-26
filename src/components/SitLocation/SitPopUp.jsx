@@ -2,7 +2,7 @@ import React from "react";
 import { OverlayTrigger, Popover, Button } from "react-bootstrap";
 
 const SitPopUp = (props) => {
-  const {showSitLocationComponent} = props
+  const { showSitLocationComponent } = props;
 
   return (
     <>
@@ -14,15 +14,18 @@ const SitPopUp = (props) => {
           overlay={
             <Popover id={`popover-positioned-${placement}`}>
               <Popover.Body>
-                Introduce el código de tu entrada y te indicaremos cómo llegar a tu asiento
+                Introduce el código de tu entrada y te indicaremos cómo llegar a
+                tu asiento
                 <br></br>
                 <input />
-                <Button variant="secondary" onClick={showSitLocationComponent}>{"->"}</Button>
+                <Button variant="secondary" onClick={showSitLocationComponent}>
+                  {"->"}
+                </Button>
               </Popover.Body>
             </Popover>
           }
         >
-          <Button variant="secondary" >¿Cuál es tu código?</Button>
+          <Button variant="secondary">¿Cuál es tu código?</Button>
         </OverlayTrigger>
       ))}
     </>
