@@ -51,8 +51,8 @@ const SitLocationComponent = () => {
           </ListGroupItem>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="/match">
-            <Button className="sit-button">Ok</Button>
+          <Card.Link href="/match" className="d-flex justify-content-center card-link">
+            <Button className="sit-button">Finalizar</Button>
           </Card.Link>
         </Card.Body>
       </Card>

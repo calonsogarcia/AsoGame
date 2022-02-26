@@ -17,7 +17,7 @@ const SitPopUp = (props) => {
                 Introduce el código de tu entrada y te indicaremos cómo llegar a tu asiento
                 <br></br>
                 <input />
-                <Button variant="secondary" onClick={showSitLocationComponent}>Go</Button>
+                <Button variant="secondary" onClick={showSitLocationComponent}>{"->"}</Button>
               </Popover.Body>
             </Popover>
           }

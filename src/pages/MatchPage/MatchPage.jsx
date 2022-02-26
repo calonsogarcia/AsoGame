@@ -6,7 +6,7 @@ import "./MatchPage.css";
 import MatchCommunity from "../../components/MatchCommunity/MatchCommunity";
 
 const MatchPage = () => {
-  const [showMatchDetails, setShowMatchDetails] = useState(false);
+  const [showMatchDetails, setShowMatchDetails] = useState(true);
   const [showMatchCommunity, setShowMatchCommunity] = useState(false);
 
   const showDetails = () => {

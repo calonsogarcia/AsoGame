@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import { Table } from "react-bootstrap";
 import badahuesca from "../../assets/images/badahuesca.png";
 import franklin from "../../assets/images/franklin.png";
+import "./Games.css";
 
 const Games = () => {
   return (
@@ -14,8 +15,8 @@ const Games = () => {
             <th colSpan={2}>Hoy: Sábado 26/02</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
+        <tbody >
+          <tr >
             <td>
             <img
               id="logo-img"
@@ -36,7 +37,7 @@ const Games = () => {
             />
             </td>
             <td>18:00</td>
-            <td><Link to="/sitlocation"> Asisto </Link></td>
+            <td><Link to="/sitlocation"> {"->"} </Link></td>
           </tr>
           <tr>
             <td>
@@ -59,7 +60,7 @@ const Games = () => {
             />
             </td>
             <td>17:30</td>
-            <td><Link to="/sitlocation">Asisto</Link></td>
+            <td><Link to="/sitlocation">{"->"}</Link></td>
           </tr>
           <tr>
             <td>
@@ -82,7 +83,7 @@ const Games = () => {
             />
             </td>
             <td>19:00</td>
-            <td><Link to="/sitlocation">Asisto</Link></td>
+            <td><Link to="/sitlocation">{"->"}</Link></td>
           </tr>
         </tbody>
       </Table>
