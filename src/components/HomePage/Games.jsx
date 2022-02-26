@@ -1,6 +1,8 @@
 import {React} from "react";
 import {Link} from "react-router-dom";
 import { Table } from "react-bootstrap";
+import badahuesca from "../../assets/images/badahuesca.png";
+import franklin from "../../assets/images/franklin.png";
 
 const Games = () => {
   return (
@@ -14,17 +16,71 @@ const Games = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Barça - Bidasoa</td>
+            <td>
+            <img
+              id="logo-img"
+              src={franklin}
+              width="15"
+              height="15"
+              className="m-2"
+              alt="equip icon"
+            />
+            Barça - Bidasoa
+            <img
+              id="logo-img"
+              src={badahuesca}
+              width="15"
+              height="15"
+              className="m-2"
+              alt="equip icon"
+            />
+            </td>
             <td>18:00</td>
             <td><Link to="/match"> Asisto </Link></td>
           </tr>
           <tr>
-            <td>Granollers - La Rioja</td>
+            <td>
+            <img
+              id="logo-img"
+              src={badahuesca}
+              width="15"
+              height="15"
+              className="m-2"
+              alt="equip icon"
+            />
+            Granollers - La Rioja
+            <img
+              id="logo-img"
+              src={franklin}
+              width="15"
+              height="15"
+              className="m-2"
+              alt="equip icon"
+            />
+            </td>
             <td>17:30</td>
             <td><Link to="/match">Asisto</Link></td>
           </tr>
           <tr>
-            <td>Morrazo - Benidorm</td>
+            <td>
+            <img
+              id="logo-img"
+              src={franklin}
+              width="15"
+              height="15"
+              className="m-2"
+              alt="equip icon"
+            />
+            Morrazo - Benidorm
+            <img
+              id="logo-img"
+              src={badahuesca}
+              width="15"
+              height="15"
+              className="m-2"
+              alt="equip icon"
+            />
+            </td>
             <td>19:00</td>
             <td><Link to="/match">Asisto</Link></td>
           </tr>
@@ -38,7 +94,7 @@ const Games = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Unicaja - Puente Genil</td>
+            <td> Unicaja - Puente Genil </td>
             <td>18:00</td>
             <td>05/03</td>
           </tr>

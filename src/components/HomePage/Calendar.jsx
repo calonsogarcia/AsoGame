@@ -6,16 +6,24 @@ const Calendar = () => {
     <Table responsive hover bordered variant="light">
       <thead>
         <tr>
-          {Array.from({ length: 8 }).map((_, index) => (
-            <th key={index}>Lunes</th>
-          ))}
+          <th className="text-center">Domingo</th>
+          <th className="text-center">Lunes</th>
+          <th className="text-center">Martes</th>
+          <th className="text-center">Miércoles</th>
+          <th className="text-center">Jueves</th>
+          <th className="text-center">Viernes</th>
+          <th className="text-center">Sábado</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          {Array.from({ length: 8 }).map((_, index) => (
-            <td key={index}>{index}</td>
-          ))}
+          <th className="text-center">27/02</th>
+          <th className="text-center">28/02</th>
+          <th className="text-center">01/03</th>
+          <th className="text-center">02/03</th>
+          <th className="text-center">03/03</th>
+          <th className="text-center">04/03</th>
+          <th className="text-center">05/03</th>
         </tr>
       </tbody>
     </Table>
