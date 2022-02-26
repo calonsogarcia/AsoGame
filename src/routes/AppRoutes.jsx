@@ -6,7 +6,7 @@ const AppRoutes = () => {
 
     return (
         <Routes>
-            {/* <Route path="/" element={<IndexPage />}/> */}
+            <Route path="/" element={<IndexPage />}/>
             <Route path="/match" element={<MatchPage />} />
         </Routes>
     )
