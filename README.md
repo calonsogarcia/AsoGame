@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# AsoGame
+======================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La idea se basa en desarrollar soluciones digitales que consigan el engagement de los asistentes a los partidos mejorando y aumentando la experiencia de usuario, basado en el caso de estudio 1 planteado por Ironhack.
 
-## Available Scripts
+Hemos desarrollado un prototipo de la app de forma sencilla, para dar soporte a la presentación más elaborada que se puede consultar en:
 
-In the project directory, you can run:
+## El flujo de la app sería el siguiente: 
 
-### `npm start`
+El asistente al partido podrá navegar por la app de forma libre para consultar los partidos que se desarrollan ese día o los futuros. También podrá navegar por la información del partido al que está asistiendo. 
+Esta navegación es limitada, ya que para poder disfrutar de la experiencia completa deberá loguearse.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+En el momento en que el usuario se loguea tendrá la posibilidad de escanear el código QR que se encuentra en la puerta del estadio, el cual le redirigirá a una página con un pop-up en el cual se debe introducir el nº de fila y butaca. Esta acción activará el despliegue de una vista con las indicaciones de cómo llegar a su sitio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+También podrá acceder a las siguientes funcionalidades extras:
+- Chat
+- Tus pronósticos.
+- Juega con nosotros
+- Tu perfil
+- Acumulación de tokens/coins
+- Uso de los tokens/coins
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Detalle de las vistas:
 
-### `npm run build`
+### Chat
+Chat tipo twitter en vivo, en el cual podrá poner comentarios instantáneos que se compartirán con los demás asistentes al partido.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tus pronósticos
+Vista en la cual se activarán varias encuestas antes del partido que el usuario podrá contestar. Como por ejemplo: “¿Cuántos goles crees que marcará cada equipo antes del partido?¿Qué jugador crees que será el que más marque?”
+**En caso de que se acierten los pronósticos el usuario recibirá monedas**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Juega con nosotros
+Un mini kahoot/quiz que se llevará a cabo durante el descanso.
+**En caso de que se acierten los pronósticos el usuario recibirá monedas**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Perfil de usuario
+Aquí podrás indicar información personal, así como el equipo del cual eres seguidor.
 
-### `npm run eject`
+### Acumulación de tokens/coins
+Los tokens/coins serán puntos que se acumularán cuando se aciertan los pronósticos realizados sobre el partido y cuando en el kahoot/quiz se queda clasificado entre los 3 primeros.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Uso de los tokens/coins
+Se podrá hacer uso de los mismos para abonar las consumiciones en la zona de restauración de los pabellones o, si se acumula una determinada cantidad, tener la posibilidad de canjearlos por una entrada para asistir a otro partido.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+======================================
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Download and installation: Download the repository code with git clone or use download button.
 
-## Learn More
+Run npm install || yarn install on the client && on the server to install the dependencies.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Available Scripts In the project directory, you can run: yarn run dev || npm run dev to raise the server at http://localhost:5005
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Then yarn start || npm start
 
-### Code Splitting
+Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The page will reload if you make edits. 
